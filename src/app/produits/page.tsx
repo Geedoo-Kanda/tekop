@@ -16,7 +16,7 @@ export default function Produits() {
             <div>
               <h1 className="text-2xl md:text-4xl font-semibold"><span className="text-green-500">SmartConnect</span></h1>
               <p className="text-md indent-10 mt-4 text-justify">
-                Un projet logiciel axé sur la connectivité intelligente, SmartConnect vise à simplifier et à optimiser l'intégration des systèmes au sein des entreprises. Cette plateforme offre des solutions de connectivité robustes pour favoriser une communication fluide entre différentes applications, améliorant ainsi l'efficacité opérationnelle.
+                Un projet logiciel axé sur la connectivité intelligente, SmartConnect vise à simplifier et à optimiser l&apos;intégration des systèmes au sein des entreprises. Cette plateforme offre des solutions de connectivité robustes pour favoriser une communication fluide entre différentes applications, améliorant ainsi l&apos;efficacité opérationnelle.
               </p>
               <div className="text-sm space-x-4 mt-5">
                 <button className="bg-green-500 px-6 py-2 rounded-lg text-white hover:bg-green-600">Essayez 7 jours gratuit</button>
@@ -28,7 +28,7 @@ export default function Produits() {
               <div className="p-4 rounded-lg relative bg-white/60 dark:bg-gray-900/40 shadow border border-green-500">
                 <h1 className="text-green-500 text-3xl mt-4 font-mono font-bold text-center mb-5">Premium</h1>
                 <p className="text-sm text-justify indent-10 my-5 2xl:my-10">
-                Choisissez notre offre Premium pour une expérience logicielle enrichie, dotée de fonctionnalités avancées. Cette option apporte une valeur exceptionnelle aux utilisateurs exigeants en quête de performances optimales. Explorez les avantages du niveau Premium et profitez d'une utilisation haut de gamme de nos logiciels.
+                Choisissez notre offre Premium pour une expérience logicielle enrichie, dotée de fonctionnalités avancées. Cette option apporte une valeur exceptionnelle aux utilisateurs exigeants en quête de performances optimales. Explorez les avantages du niveau Premium et profitez d&apos;une utilisation haut de gamme de nos logiciels.
                 </p>
                 <h2 className="text-7xl font-bold justify-center flex items-center">9.99 <small className="text-2xl ml-2">$</small></h2>
                 <button className="bg-green-500 py-2 rounded-lg text-white hover:bg-green-600 w-full mt-5">Achetez Maintenant</button>
