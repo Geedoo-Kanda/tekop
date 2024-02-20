@@ -22,7 +22,7 @@ export default function Blog() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-4 px-4">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-cols-1 gap-4 px-4">
             <Link href={"/blog/titre-article"}>
               <div className="bg-[url('/images/blog/1.jpg')] bg-cover w-full bg-center h-60 overflow-hidden rounded-xl">
                 <div className=" bg-gradient-to-b from-black/0 to-black/95 w-full h-full flex items-end p-4">

@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     return (
         <div className="mt-20 bg-gray-100 py-12 px-4 dark:bg-gray-900">
             <div className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-4">
-                <div className="col-span-2 grid gap-4 grid-cols-2 md:grid-cols-3">
+                <div className="col-span-2 md:grid gap-4 md:grid-cols-3">
                     <div>
                         <h2 className="text-xl font-semibold mb-7 dark:text-white">Nos coordonnées</h2>
                         <div className="flex mt-3">

@@ -26,7 +26,7 @@ export default function Article() {
                     </div>
                 </div>
                 <img src="/images/blog/1.jpg" alt="" className="w-full h-auto" />
-                <p className="px-4 my-8 text-justify indent-10">
+                <p className="md:px-4 my-8 text-justify indent-10">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officia at aliquid. Soluta illo eius aperiam voluptate ipsam cupiditate veniam ad nulla dolores nemo neque magnam quisquam, quasi possimus saepe?
                     Dolore voluptatibus rerum quidem aliquam assumenda facilis quis laudantium illum adipisci non dolores, delectus tenetur debitis reprehenderit nihil doloremque hic. Maiores, amet cumque! Delectus dicta, voluptatem facere expedita libero esse?
                     Vero officia dicta deleniti quod tenetur rerum blanditiis illum, vitae labore doloribus soluta similique modi et recusandae. Corporis veniam magnam voluptas mollitia incidunt aliquam, culpa ex autem, placeat neque expedita?

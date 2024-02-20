@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <main className="">
-      <div className="h-[50vh] md:h-screen overflow-hidden 2xl:container 2xl:mx-auto">
+      <div className="h-[70vh] md:h-screen overflow-hidden 2xl:container 2xl:mx-auto">
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
           <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem] test"></div>
         </div>
@@ -45,10 +45,10 @@ export default function Home() {
                   A propos de nous</span>
               </div>
               <h1 className="text-xl md:text-3xl font-semibold"><span className="text-green-500">TekOp</span> : Catalyseurs d&apos;Innovation au Service de Vos Aspirations</h1>
-              <p className="my-4 text-md md:text-lg text-gray-600 dark:text-white text-justify indent-10">
+              <p className="my-4 text-sm lg:text-lg text-gray-600 dark:text-white text-justify indent-10">
                 TekOp incarne l&apos;innovation au cœur de la République Démocratique du Congo. Avec passion et engagement envers la satisfaction client, nous sommes des partenaires stratégiques pour concrétiser les aspirations de nos clients. Notre vision transcendantale fait de TekOp un catalyseur d&apos;innovation prêt à redéfinir les normes de l&apos;industrie technologique, laissant un impact positif durable sur les communautés que nous touchons.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-3 font-bold text-md md:text-lg text-center  items-center">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3 font-bold text-sm md:text-md text-center  items-center">
                 <div>
                   <div className="flex justify-center text-green-500 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0a5.35 5.35 0 0 0-5.5 5.18c0 3.23 2.59 3.23 2.59 5.17v3.06A2.77 2.77 0 0 0 8 16a2.78 2.78 0 0 0 2.92-2.59v-3.06c0-1.94 2.59-1.94 2.59-5.17A5.35 5.35 0 0 0 8 0m0 14.75a1.54 1.54 0 0 1-1.65-1.34V12.2h3.31v1.21A1.55 1.55 0 0 1 8 14.75m3.1-7.16a3.75 3.75 0 0 0-1.43 2.76V11H6.34v-.6a3.75 3.75 0 0 0-1.43-2.81a2.87 2.87 0 0 1-1.16-2.41A4.1 4.1 0 0 1 8 1.25a4.1 4.1 0 0 1 4.25 3.93a2.87 2.87 0 0 1-1.16 2.41z" /><path fill="currentColor" d="M8 2.66a3 3 0 0 0-2.13.85a2.33 2.33 0 0 0-.73 1.69a.62.62 0 0 0 .62.63a.63.63 0 0 0 .63-.63a1.1 1.1 0 0 1 .36-.8A1.74 1.74 0 0 1 8 3.91a.63.63 0 1 0 0-1.25" /></svg>
@@ -95,7 +95,7 @@ export default function Home() {
                     </span>
                   </div>
                   <h1 className="my-2 text-lg md:text-xl text-center text-green-500 font-semibold"> Infographie Captivante</h1>
-                  <p className="text-md md:text-lg text-gray-600 dark:text-white text-justify indent-10 px-3">
+                  <p className="lg:text-lg text-sm text-gray-600 dark:text-white text-justify indent-10 px-3">
                     Transformez vos idées en visuels percutants avec notre service d&apos;infographie captivante. Notre équipe talentueuse excelle dans la création d&apos;images visuellement impressionnantes, simplifiant efficacement des messages complexes de manière mémorable. Que ce soit pour des présentations professionnelles, des rapports percutants ou des contenus web engageants, notre service d&apos;infographie donne vie à vos idées de manière époustouflante.
                   </p>
                 </div>
@@ -116,7 +116,7 @@ export default function Home() {
                     </span>
                   </div>
                   <h1 className="my-2 text-lg md:text-xl text-center text-green-500 font-semibold">  Création de Logiciels sur Mesure </h1>
-                  <p className="text-md md:text-lg text-gray-600 dark:text-white text-justify indent-10 px-3">
+                  <p className="lg:text-lg text-sm text-gray-600 dark:text-white text-justify indent-10 px-3">
                   Nous comprenons que chaque entreprise a des besoins uniques. C&apos;est pourquoi notre service de création de logiciels sur mesure est spécialement conçu pour répondre à vos exigences spécifiques. Du cahier des charges initial à la phase de développement, notre équipe collabore étroitement avec vous pour créer des solutions logicielles puissantes, intuitives et parfaitement adaptées à vos objectifs.
                   </p>
                 </div>
@@ -137,7 +137,7 @@ export default function Home() {
                     </span>
                   </div>
                   <h1 className="my-2 text-lg md:text-xl text-center text-green-500 font-semibold">  Commercialisation de Logiciels en Abonnement </h1>
-                  <p className="text-md md:text-lg text-gray-600 dark:text-white text-justify indent-10 px-3">
+                  <p className="lg:text-lg text-sm text-gray-600 dark:text-white text-justify indent-10 px-3">
                     Embarquez dans l&apos;avenir numérique avec notre service de développement et de commercialisation de logiciels en abonnement. Nous concevons des solutions logicielles innovantes, flexibles et accessibles, évoluant avec vos besoins. De la conception initiale à la commercialisation stratégique, nous sommes votre partenaire de confiance pour assurer le succès continu de vos logiciels.
                   </p>
                 </div>
@@ -158,7 +158,7 @@ export default function Home() {
                     </span>
                   </div>
                   <h1 className="my-2 text-lg md:text-xl text-center text-green-500 font-semibold">  Gestion de Communauté sur les Réseaux Sociaux </h1>
-                  <p className="text-md md:text-lg text-gray-600 dark:text-white text-justify indent-10 px-3">
+                  <p className="lg:text-lg text-sm text-gray-600 dark:text-white text-justify indent-10 px-3">
                     Animez votre présence en ligne avec notre service de gestion de communauté sur les réseaux sociaux. Notre équipe de community managers dédiés collabore avec votre marque pour créer et animer une communauté engagée. De la planification de contenu à l&apos;interaction avec les abonnés, nous renforçons votre présence sociale et favorisons des connexions significatives avec votre audience.
                   </p>
                 </div>
@@ -227,7 +227,7 @@ export default function Home() {
               </p>
             </div>
             <div className="grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 grid ">
-              <div className="rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
+              <div className="bg-center rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
                 <div className=" bg-gradient-to-b from-black/0 to-black/95 hover:from-black/0 hover:to-green-950 transition duration-300 ease-in-out transform w-full h-full justify-center flex items-end pb-1">
                   <div className="text-white">
                     <h2 className="text-center font-semibold text-md md:text-xl">Geedoo Kanda</h2>
@@ -252,7 +252,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
+              <div className="bg-center rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
                 <div className=" bg-gradient-to-b from-black/0 to-black/95 hover:from-black/0 hover:to-green-950 transition duration-300 ease-in-out transform w-full h-full justify-center flex items-end pb-1">
                   <div className="text-white">
                     <h2 className="text-center font-semibold text-md md:text-xl">Geedoo Kanda</h2>
@@ -277,7 +277,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
+              <div className="bg-center rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
                 <div className=" bg-gradient-to-b from-black/0 to-black/95 hover:from-black/0 hover:to-green-950 transition duration-300 ease-in-out transform w-full h-full justify-center flex items-end pb-1">
                   <div className="text-white">
                     <h2 className="text-center font-semibold text-md md:text-xl">Geedoo Kanda</h2>
@@ -302,7 +302,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
+              <div className="bg-center rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
                 <div className=" bg-gradient-to-b from-black/0 to-black/95 hover:from-black/0 hover:to-green-950 transition duration-300 ease-in-out transform w-full h-full justify-center flex items-end pb-1">
                   <div className="text-white">
                     <h2 className="text-center font-semibold text-md md:text-xl">Geedoo Kanda</h2>
@@ -327,7 +327,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
+              <div className="bg-center rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
                 <div className=" bg-gradient-to-b from-black/0 to-black/95 hover:from-black/0 hover:to-green-950 transition duration-300 ease-in-out transform w-full h-full justify-center flex items-end pb-1">
                   <div className="text-white">
                     <h2 className="text-center font-semibold text-md md:text-xl">Geedoo Kanda</h2>
@@ -352,7 +352,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
+              <div className="bg-center rounded-md overflow-hidden bg-[url('/images/team/geedoo-kanda.jpeg')] bg-cover w-full h-80">
                 <div className=" bg-gradient-to-b from-black/0 to-black/95 hover:from-black/0 hover:to-green-950 transition duration-300 ease-in-out transform w-full h-full justify-center flex items-end pb-1">
                   <div className="text-white">
                     <h2 className="text-center font-semibold text-md md:text-xl">Geedoo Kanda</h2>
