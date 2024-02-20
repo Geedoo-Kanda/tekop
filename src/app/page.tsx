@@ -17,7 +17,7 @@ export default function Home() {
           <div className="text-left px-5">
             <h2 className="text-lg">Innovez, Optimisez, excellez</h2>
             <h1 className="text-2xl md:text-4xl font-semibold">Découvrez  <span className="text-green-500">TekOp</span>, la startup redéfinissant les normes de l&apos;optimisation technologique avec expertise et engagement exceptionnels.</h1>
-            <div className="text-sm space-x-4 mt-5">
+            <div className="text-sm space-x-4 mt-5 md:space-y-0 space-y-4">
               <button className="bg-green-500 px-6 py-2 rounded-lg text-white hover:bg-green-600">Demander un devis</button>
               <button className="border border-green-500 px-6 py-2 rounded-lg text-green-500 hover:bg-green-500 hover:text-white">Nos services  </button>
             </div>
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-100 py-12 px-8 dark:bg-gray-900">
+        <div className="bg-gray-100 py-12 px-4 md:px-8 dark:bg-gray-900 overflow-auto">
           <div className="flex mb-5">
             <span className="flex text-xs items-center border border-green-500 rounded-full py-1 px-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" className="mr-1 text-green-500" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 14.475l1.9 1.15q.275.175.55-.012t.2-.513l-.5-2.175l1.7-1.475q.25-.225.15-.537t-.45-.338l-2.225-.175l-.875-2.05q-.125-.3-.45-.3t-.45.3l-.875 2.05l-2.225.175q-.35.025-.45.338t.15.537l1.7 1.475l-.5 2.175q-.075.325.2.513t.55.012zM8.65 20H6q-.825 0-1.412-.587T4 18v-2.65L2.075 13.4q-.275-.3-.425-.662T1.5 12q0-.375.15-.737t.425-.663L4 8.65V6q0-.825.588-1.412T6 4h2.65l1.95-1.925q.3-.275.663-.425T12 1.5q.375 0 .738.15t.662.425L15.35 4H18q.825 0 1.413.588T20 6v2.65l1.925 1.95q.275.3.425.663t.15.737q0 .375-.15.738t-.425.662L20 15.35V18q0 .825-.587 1.413T18 20h-2.65l-1.95 1.925q-.3.275-.662.425T12 22.5q-.375 0-.737-.15t-.663-.425zm.85-2l2.5 2.5l2.5-2.5H18v-3.5l2.5-2.5L18 9.5V6h-3.5L12 3.5L9.5 6H6v3.5L3.5 12L6 14.5V18zm2.5-6" /></svg>
@@ -83,9 +83,9 @@ export default function Home() {
             <p className="text-md md:text-lg text-gray-600 dark:text-white text-justify indent-10 hidden md:flex">
               Bienvenue dans le monde des possibilités infinies de TekOp. Notre gamme de services diversifiée repose sur quatre piliers essentiels, chaque service étant conçu pour répondre à vos besoins spécifiques avec créativité et expertise inégalées.
             </p>
-            <div className="relative p-3 rounded-md shadow-md bg-white shadow-gray-100 dark:shadow-gray-950 dark:bg-gray-950 hover:bg-green-50">
+            <div className="relative p-3 rounded-md shadow-md bg-white shadow-gray-100 dark:shadow-gray-950 dark:bg-gray-950 hover:bg-green-50 h-full  lg:min-h-[400px] min-h-[500px]">
               <div className="inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl " aria-hidden="true">
-                <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[20rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30"></div>
+                <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[14rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30"></div>
               </div>
               <div className="items-center absolute top-0 h-full flex">
                 <div>
@@ -101,12 +101,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
-                <div className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[20rem] -translate-x-1/2 bg-gradient-to-tr from-green-300 to-green-600 opacity-30 " ></div>
+                <div className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[14rem] -translate-x-1/2 bg-gradient-to-tr from-green-300 to-green-600 opacity-30 " ></div>
               </div>
             </div>
-            <div className="relative p-3 rounded-md shadow-md bg-white shadow-gray-100 dark:shadow-gray-950 dark:bg-gray-950 hover:bg-green-50">
+            <div className="relative p-3 rounded-md shadow-md bg-white shadow-gray-100 dark:shadow-gray-950 dark:bg-gray-950 hover:bg-green-50 h-full  md:min-h-[400px] min-h-[500px]">
               <div className="inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl " aria-hidden="true">
-                <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[20rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30"></div>
+                <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[14rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30"></div>
               </div>
               <div className="items-center absolute top-0 h-full flex">
                 <div>
@@ -122,12 +122,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
-                <div className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[20rem] -translate-x-1/2 bg-gradient-to-tr from-green-300 to-green-600 opacity-30 " ></div>
+                <div className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[14rem] -translate-x-1/2 bg-gradient-to-tr from-green-300 to-green-600 opacity-30 " ></div>
               </div>
             </div>
-            <div className="relative p-3 rounded-md shadow-md bg-white shadow-gray-100 dark:shadow-gray-950 dark:bg-gray-950 hover:bg-green-50">
+            <div className="relative p-3 rounded-md shadow-md bg-white shadow-gray-100 dark:shadow-gray-950 dark:bg-gray-950 hover:bg-green-50 h-full  md:min-h-[400px] min-h-[500px]">
               <div className="inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl " aria-hidden="true">
-                <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[20rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30"></div>
+                <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[14rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30"></div>
               </div>
               <div className="items-center absolute top-0 h-full flex">
                 <div>
@@ -143,12 +143,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
-                <div className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[20rem] -translate-x-1/2 bg-gradient-to-tr from-green-300 to-green-600 opacity-30 " ></div>
+                <div className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[14rem] -translate-x-1/2 bg-gradient-to-tr from-green-300 to-green-600 opacity-30 " ></div>
               </div>
             </div>
-            <div className="relative p-3 rounded-md shadow-md bg-white shadow-gray-100 dark:shadow-gray-950 dark:bg-gray-950 hover:bg-green-50">
+            <div className="relative p-3 rounded-md shadow-md bg-white shadow-gray-100 dark:shadow-gray-950 dark:bg-gray-950 hover:bg-green-50 h-full  md:min-h-[400px] min-h-[500px]">
               <div className="inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl " aria-hidden="true">
-                <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[20rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30"></div>
+                <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[14rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-600 opacity-30"></div>
               </div>
               <div className="items-center absolute top-0 h-full flex">
                 <div>
@@ -164,7 +164,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
-                <div className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[20rem] -translate-x-1/2 bg-gradient-to-tr from-green-300 to-green-600 opacity-30 " ></div>
+                <div className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[14rem] -translate-x-1/2 bg-gradient-to-tr from-green-300 to-green-600 opacity-30 " ></div>
               </div>
             </div>
           </div>
